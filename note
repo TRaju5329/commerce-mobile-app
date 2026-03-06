@@ -1,0 +1,83 @@
+src
+│
+├── app
+│   └── navigation
+│       ├── RootNavigator.tsx
+│       ├── CustomerNavigator.tsx
+│       └── AdminNavigator.tsx
+│
+├── core
+│   │
+│   ├── api
+│   │   └── axios.ts
+│   │
+│   ├── theme
+│   │   ├── colors.ts
+│   │   ├── spacing.ts
+│   │   ├── typography.ts
+│   │   └── index.ts
+│   │
+│   ├── constants
+│   │   ├── roles.ts
+│   │   └── routes.ts
+│   │
+│   └── utils
+│       ├── formatPrice.ts
+│       ├── formatDate.ts
+│       └── helpers.ts
+│
+├── features
+│
+│   ├── auth
+│   │   ├── screens
+│   │   │   └── LoginScreen.tsx
+│   │   ├── store
+│   │   │   └── authStore.ts
+│   │   └── types.ts
+│   │
+│   ├── products
+│   │   ├── screens
+│   │   │   ├── ProductListScreen.tsx
+│   │   │   └── ProductDetailsScreen.tsx
+│   │   ├── components
+│   │   │   └── ProductCard.tsx
+│   │   ├── store
+│   │   │   └── productStore.ts
+│   │   ├── services
+│   │   │   └── productService.ts
+│   │   └── types.ts
+│   │
+│   ├── cart
+│   │   ├── screens
+│   │   │   └── CartScreen.tsx
+│   │   ├── store
+│   │   │   └── cartStore.ts
+│   │   └── types.ts
+│   │
+│   └── admin
+│       ├── screens
+│       │   ├── DashboardScreen.tsx
+│       │   ├── ProductsScreen.tsx
+│       │   └── OrdersScreen.tsx
+│
+├── shared
+│
+│   ├── components
+│   │   ├── Button.tsx
+│   │   ├── Input.tsx
+│   │   ├── Card.tsx
+│   │   ├── Header.tsx
+│   │   ├── Loader.tsx
+│   │   ├── EmptyState.tsx
+│   │   └── Divider.tsx
+│   │
+│   ├── hooks
+│   │   └── useDebounce.ts
+│   │
+│   └── layout
+│       └── ScreenContainer.tsx
+│
+└── assets
+
+
+Your stack: Expo + React Native + TypeScript + React Navigation + Zustand
